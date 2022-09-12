@@ -22,4 +22,3 @@
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
-
