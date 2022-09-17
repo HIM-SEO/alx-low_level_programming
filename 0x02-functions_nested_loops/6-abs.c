@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,7 +6,7 @@
  * @c: is the int that will use for the argument of the fuction
  * Return: 0
  */
-int _abs (int c)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
