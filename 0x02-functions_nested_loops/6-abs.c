@@ -6,7 +6,7 @@
  * @c: is the int that will use for the argument of the fuction
  * Return: 0
  */
-int abs(int c)
+int main _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
