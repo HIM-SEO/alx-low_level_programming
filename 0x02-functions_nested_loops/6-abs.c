@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _abs(void)
 {
 	int r;
 	r= _abs(-1);
