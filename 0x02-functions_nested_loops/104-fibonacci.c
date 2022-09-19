@@ -1,19 +1,17 @@
 #include <stdio.h>
-int main()
+/**
+ * prints the first 98 Fibonacci numbers
+ * The numbers should be separated by comma, followed by a space 
+ */
+int main(void)
 {
-	int t1 = 0, t2 = 1, nextTerm = 0, n;
-	  printf("Enter a positive number: ");
-	  scanf("%d", &n)
-		  // displays the first two terms which is always 0 and 1
-		  // printf("Fibonacci Series: %d, %d, ", t1, t2);
-		  // nextTerm = t1 + t2;
-		  // while (nextTerm <= n)
-	  {
-		   printf("%d, ", nextTerm);
-		   t1 = t2;
-		   t2 = nextTerm;
-		   nextTerm = t1 + t2;
-	  }
+int arr[3]={0,1,0},n;
 
-	return 0;
-}	
+n=10;//user input 
+
+// series formation
+for(int i=3;i<=n+3;i++)
+	printf("\n%d",arr[i%3]=arr[(i+1)%3]+arr[(i+2)%3]);
+
+return 0; 
+}
