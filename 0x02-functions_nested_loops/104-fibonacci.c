@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	 int n1=1,n2=2,n3,i,number
-		 printf("98:");
-	  scanf("%d",&number);
+	 int n1=1,n2=2,n3,i,98
+		__printf("98:");
+	  scanf("%d",&98);
 	  printf("\n%d %d",n1,n2);
-	  for(i=2;i<number;++i)
+	  for(i=2;i<98;++i)
 	  {
 		  n3=n1+n2;
 		  printf(" %d",n3);
