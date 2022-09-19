@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * main checks the code
- *
- * Return: Always 0.
+ * _abs -> return absolute value of a number
+ * @n: parameter
+ * Return: absolute value of a number
  */
-int _abs(void)
+int _abs(int n)
 {
-	if (c > 0 || c == 0)
-	{
-		return (c);
-	}
-	else
-		return (c * -1);
+	if (n < 0)
+
+		n = -n
+			return (n);
 }
