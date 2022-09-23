@@ -29,7 +29,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 		else if (s1[i] != s2[i])
-		{
+		c{
 			diff = s1[i] - s2[i];
 			break
 		}
