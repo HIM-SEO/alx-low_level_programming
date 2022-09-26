@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 
 		while (s[b] != 32)
 		{
-			if (accept[a] == a[b])
+			if (accept[a] == s[b])
 			{
 				t++;
 			}
@@ -28,6 +28,5 @@ unsigned int _strspn(char *s, char *accept)
 
 		a++;
 	}
-
 	return (t);
 }
