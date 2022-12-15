@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
  * prints the first 98 Fibonacci numbers
- * The numbers should be separated by comma, followed by a space 
+ * The numbers should be separated by comma, followed by a space
  */
 int main(void)
 {
 	unsigned long int i, j, k, j1, j2, k1, k2;
-	
+
 	j = 1;
 	k = 2;
 	printf("%lu", j);
 
 	for (i = 1; i < 91; i++)
-	  {
+	{
 		printf(", %lu", k);
 		k = k + j;
 		j = k - j;
-	  }
+	}
 	j1 = j / 1000000000;
 	j2 = j % 1000000000;
 	k1 = k / 1000000000;
@@ -34,6 +34,6 @@ int main(void)
 
 	printf("\n");
 
-	return 0;
-} 
+	return (0);
+}
 
