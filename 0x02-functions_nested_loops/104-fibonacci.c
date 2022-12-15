@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * prints the first 98 Fibonacci numbers
+ * main - Entry point
+ * Prints the first 98 Fibonacci numbers
  * The numbers should be separated by comma, followed by a space
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -36,4 +38,3 @@ int main(void)
 
 	return (0);
 }
-
